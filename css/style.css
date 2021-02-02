@@ -1,0 +1,323 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 71px;
+  
+}
+
+.logo  {
+  margin-left: 30px;
+  padding: 20px;
+  text-transform:uppercase;
+  font-size: 20px;
+  font-weight: 400;
+ 
+
+}
+
+.logo span{
+    text-transform: uppercase;
+    color: aqua;
+}
+.list{
+margin-top: -50px;
+margin-right: 50px;
+}
+.list li{
+    float: right;
+    padding: 10px;
+    list-style: none;
+     
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list li a:hover{
+    color: aqua;
+}
+
+
+.headpage{
+   
+   
+}
+header p{
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: 15px;
+    letter-spacing: 10px;
+}
+header span{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+
+}
+.codenumberon{
+    color:aqua ;
+    font-size: 20px;
+}
+.coding{
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+ 
+ 
+}
+.coding1{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+   
+}
+.coding1 img{
+    margin-left: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+   
+ 
+}
+.coding2{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.coding2 img{
+    margin-left: 60px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+.coding3{
+    float: right;
+    width: 33.33%;
+    text-align: center;
+}
+.coding3 img{
+    margin-right: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.clr{
+    clear: both;
+}
+
+/*   about */
+
+#about{
+  //  background-color: brown;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.infoabout{
+    text-align: center;
+    line-height:40px ;
+}
+.infoabout h1{
+    text-transform: uppercase;
+    color: aqua;
+    margin-top: 20px;
+}
+.infoabout p{
+    text-transform: lowercase;
+    letter-spacing: 15px;
+}
+.infoabout span{
+    color: aqua;
+    font-size: 20px;
+}
+.workimg{
+    width: 100%;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.img1{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+
+}
+.img1 img{
+    margin-right: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+  
+}
+
+.img2{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    
+   
+}
+.img2 img{
+    margin-right: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+       height: 65px;
+}
+.img3{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  
+}
+.img3 img{
+    margin-right: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+#work{
+  
+    margin-top: 70px;
+}
+
+#work h2{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+#work span{
+    color: aqua;
+    font-size: 20px;
+    letter-spacing: 15px;
+}
+.working_one{
+
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+
+.workone{
+
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.worktwo{
+
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.workthree{
+
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.workone  , .worktwo  ,  .workthree , h3{
+
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/*         block resume */
+
+
+#resume{
+  //  background-color: brown;
+    margin-top: 70px;
+    padding: 20px;
+}
+#resume > p{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+}
+#resume span{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 400;
+}
+.resume1{
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.youtube{
+
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+.resumeinfo{
+    float: left;
+    width: 45%;
+    text-align: center;
+    line-height: 34px;
+
+}
+
+
+/*  start contact */
+
+#contact{
+
+  //  background-color: brown;
+    margin-top: 80px;
+    padding: 20px;
+}
+#contact  p{
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 2rem;
+     word-spacing: 15px;
+}
+#contact span{
+    color: aqua;
+    font-weight: 500;
+}
+.endinfo{
+    text-align: center;
+
+}
+.endinfo input{
+    width: 60%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+}
+.endinfo  textarea{
+     margin-top: 20px;
+     border: none;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+
+footer p{
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: center;
+}
+footer span{
+    color: aqua;
+    font-size: 2rem;
+}
